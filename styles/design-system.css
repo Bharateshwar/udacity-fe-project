@@ -82,6 +82,15 @@ button {
   color: white;
 }
 
+.blog-post-card .primary-button {
+  display: block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
 .secondary-button {
   background-color: gray;
   color: white;
