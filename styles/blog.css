@@ -1,0 +1,23 @@
+.main-container.blog {
+  grid-template-areas:
+    "header header header"
+    "content content content"
+    "footer footer footer";
+}
+
+.main-container.blog .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  gap: 30px;
+  padding: 40px;
+}
+
+@media screen and (max-width: 690px) {
+  .main-container.blog .content {
+    grid-template-columns: 1fr;
+    padding: 20px 0;
+  }
+}

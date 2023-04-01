@@ -1,0 +1,160 @@
+.design-system-heading {
+  margin: 50px;
+}
+
+.design-sytem-container > * {
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.design-sytem-container > * > * {
+  margin: 20px 0;
+}
+
+/* Typography styles */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0;
+  padding: 10px;
+  border-left: 2px solid gray;
+}
+
+/* Button styles */
+button {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 16px;
+  margin-right: 10px;
+}
+
+.primary-button {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.secondary-button {
+  background-color: gray;
+  color: white;
+}
+
+/* Blog post card styles */
+.blog-post-card {
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.blog-post-card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.blog-post-card:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post-label {
+  background-color: var(--primary-color);
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.blog-post-card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.blog-post-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.blog-post-card a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.blog-post-card a:hover {
+  text-decoration: underline;
+}
+
+/* Blog image styles */
+.blog-image-figure {
+  margin: 20px 0;
+}
+
+.blog-image {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
