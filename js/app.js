@@ -1,9 +1,17 @@
-// toggle the "active" class for all the elements supplied to the function
+/**
+ *
+ * @param  {...any} elements : toggle the "active" class for all the elements supplied to the function
+ */
 const toggleActiveClasses = (...elements) => {
   elements.forEach((element) => element.classList.toggle("active"));
 };
 
-// detects when sections are in view, and triggers class toggling
+/**
+ * detects when sections are in view, and triggers class toggling
+ * @param {*} sections
+ * @param {*} navLinks
+ * @returns an function that can be be used in an event handler
+ */
 const detectSectionsInView = (sections, navLinks) => {
   let lastActiveSectionIndex = 0;
 
